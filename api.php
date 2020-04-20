@@ -16,10 +16,11 @@ $mode = $_POST['mode'];
 //$mode = 'l1d1'; * Used to Test DB Output Status without app Trigger * 
 
 
-$conn = mysqli_connect('host', 'user_id', 'passwd', 'table_name');
+$conn = mysqli_connect('host', 'user_id', 'passwd', 'db_name');
 // Check connection
 if ($conn->connect_error) {
 die("Connection failed: " . $conn->connect_error);
+echo json_encode("382");
 }
 $sql = "SELECT * FROM qrdb WHERE id='$uid'";
 $result = $conn->query($sql);
