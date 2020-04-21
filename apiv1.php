@@ -16,7 +16,7 @@ $mode = $_POST['mode'];
 //$mode = 'l1d1'; * Used to Test DB Output Status without app Trigger * 
 
 
-$conn = mysqli_connect('host', 'user_id', 'passwd', 'db_name');
+$conn = mysqli_connect('mysql.hostinger.com', 'u531015697_srmrgds', 'srmrgds2020', 'u531015697_qr');
 // Check connection
 if ($conn->connect_error) {
 die("Connection failed: " . $conn->connect_error);
