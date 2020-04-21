@@ -22,11 +22,12 @@ if ($conn->connect_error) {
 die("Connection failed: " . $conn->connect_error);
 echo json_encode("382");
 }
-$sql = "SELECT * FROM qrdb WHERE id='$uid'";
+$sql = "SELECT '$mode' FROM qrdb WHERE id='$uid'";
 $result = $conn->query($sql);
 if ($result) {
 if ($result->num_rows > 0) {
 // output data of each row
+echo $result;
 while($row = $result->fetch_assoc()) {
 $id = $row["id"];
 $l1d1 = $row["l1d1"];
