@@ -2,8 +2,8 @@
 
 This is the server side script. 
 
-The App is available @ 
-- [to be added]
+The App Code is avaliable @
+- [Git Repo](https://github.com/Arunnaidu3470/GDS)
 
 ## How it Works 
 
