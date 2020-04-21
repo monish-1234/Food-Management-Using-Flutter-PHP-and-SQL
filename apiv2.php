@@ -9,11 +9,11 @@
 // Response Code - 404.2 - Invalid Mode 
 
 
-//$uid = $_POST['id'];
-//$mode = $_POST['mode'];
+$uid = $_POST['id'];
+$mode = $_POST['mode'];
 
-$uid = '2';  //* Used to Test DB Output Status without app Trigger *
-$mode = 'l1d1';// * Used to Test DB Output Status without app Trigger * 
+// $uid = '2';  * Used to Test DB Output Status without app Trigger *
+// $mode = 'l1d1'; * Used to Test DB Output Status without app Trigger * 
 
 
 $conn = mysqli_connect('mysql.hostinger.com', 'u531015697_srmrgds', 'srmrgds2020', 'u531015697_qr');
