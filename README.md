@@ -3,7 +3,7 @@
 This is the server side script. 
 
 The App Code is avaliable @
-- [Git Repo](https://github.com/Arunnaidu3470/GDS)
+- [Git Repo](https://github.com/RatakondalaArun/Food-Management-client-app)
 
 ## How it Works 
 
